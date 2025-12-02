@@ -19,6 +19,26 @@ div {
   padding-left: 20px;
 }
 
+.modal {
+  background: #fff;
+  padding: 24px;
+  border-radius: 10px;
+  min-width: 280px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  z-index: 10;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
